@@ -11,7 +11,7 @@ class BrazoRobotico{
 		double getX();
 		double getY();
 		double getZ();
-		double getObjeto();
+		bool getObjeto();
 		void coger();
 		void soltar();
 		void mover(double a, double b, double c);
